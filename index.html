@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>液晶電卓 - サポート</title>
+<style>
+  :root {
+    --body: #1E1C18;
+    --panel: #2A2722;
+    --display-bg: #C2CDA7;
+    --display-text: #1A2416;
+    --text: #E8E0D0;
+    --muted: #A89F8C;
+    --accent: #D4A84A;
+    --border: #3C3830;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--body);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.8;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 40px 24px 80px; }
+  header { text-align: center; margin-bottom: 40px; }
+  .badge {
+    display: inline-block;
+    background: var(--display-bg);
+    color: var(--display-text);
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    padding: 14px 28px;
+    border-radius: 12px;
+    font-size: 1.4rem;
+  }
+  h1 { font-size: 1.6rem; margin: 28px 0 8px; }
+  h2 {
+    font-size: 1.2rem;
+    margin: 36px 0 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+    color: var(--accent);
+  }
+  p, li { color: var(--text); }
+  .muted { color: var(--muted); font-size: 0.95rem; }
+  a { color: var(--accent); }
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin: 16px 0;
+  }
+  .mail {
+    font-size: 1.1rem;
+    font-weight: 600;
+    word-break: break-all;
+  }
+  footer {
+    margin-top: 56px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+  footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="badge">液晶電卓</div>
+      <h1>サポート</h1>
+      <p class="muted">シンプルで懐かしい、7セグメント表示の電卓アプリ</p>
+    </header>
+
+    <h2>お問い合わせ</h2>
+    <p>ご質問・ご要望・不具合のご報告は、下記メールアドレスまでお気軽にご連絡ください。できる限り対応いたします。</p>
+    <div class="card">
+      <p class="mail"><a href="mailto:cyx01245@gmail.com?subject=【液晶電卓】お問い合わせ">cyx01245@gmail.com</a></p>
+      <p class="muted">※ 返信までお時間をいただく場合があります。</p>
+    </div>
+
+    <h2>よくある質問</h2>
+
+    <p><strong>Q. 計算結果が「Error」と表示されます。</strong><br>
+    0での割り算や、表示できる桁数（9桁）を超えた場合に表示されます。「C」ボタンを押すと元に戻ります。</p>
+
+    <p><strong>Q. 通信やデータ収集はしていますか？</strong><br>
+    いいえ。本アプリはインターネット通信を一切行わず、個人情報やデータも収集しません。詳しくは
+    <a href="privacy.html">プライバシーポリシー</a> をご覧ください。</p>
+
+    <p><strong>Q. 関数電卓や履歴機能はありますか？</strong><br>
+    本アプリは「シンプルな四則演算」に特化しています。あえて機能を絞ることで、迷わず使えることを大切にしています。</p>
+
+    <p><strong>Q. 利用に料金はかかりますか？</strong><br>
+    いいえ。無料でご利用いただけます。広告も表示されません。</p>
+
+    <h2>動作環境</h2>
+    <p>iOS 17.0 以降の iPhone</p>
+
+    <footer>
+      <p><a href="privacy.html">プライバシーポリシー</a></p>
+      <p>© 2026 Shuji Okuno</p>
+    </footer>
+  </div>
+</body>
+</html>
